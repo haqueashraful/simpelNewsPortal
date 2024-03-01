@@ -29,7 +29,7 @@ const handleCatagory = (store) => {
     let div = document.createElement("div");
     let button = document.createElement("button");
     button.textContent = item.category_name;
-    button.classList.add("btn", "bg-sky-300", "text-black", "p-1", "w-auto");
+    button.classList.add("btn", "bg-sky-300", "text-black", "w-auto");
     button.onclick = () => showNews(item.category_id); // Attach event handler
     div.appendChild(button);
     container.appendChild(div);
